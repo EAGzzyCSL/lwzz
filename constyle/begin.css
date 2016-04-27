@@ -1,0 +1,38 @@
+#main_container {
+    display: inline-block;
+    float: right;
+}
+#h2_title {
+    text-align: center;
+}
+#div_introimg {
+    /*background-color:pink;*/
+    width: 640px;
+    height: 420px;
+}
+#img_intro {
+    width: 640px;
+    height: 420px;
+}
+#div_introtext {
+    width: 640px;
+    height: 80px;
+    /*background-color: yellow;*/
+    padding: 10px;
+}
+#p_introtext {
+    margin: 0px;
+}
+#a_go {
+    font-size: 1.5em;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0px;
+    color: rgb(0, 191, 255);
+}
+#a_go:visited {
+    color: rgb(0, 191, 255);
+}
+#a_go:hover {
+    color: rgb(0, 0, 0);
+}

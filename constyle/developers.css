@@ -1,0 +1,130 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#div_container {
+    display: inline-block;
+    /* background-color:green; */
+    height: 620px;
+    width: 450px;
+    padding: 20px;
+    margin: 0px;
+}
+#div_img {
+    position: absolute;
+    /*background-color:yellow;*/
+    height: 580px;
+    width: 410px;
+}
+.div_dever {
+    cursor: pointer;
+    margin: 0px;
+    display: inline-block;
+    /*background-color: rgb(152,251,152);*/
+    padding: 5px;
+    width: 190px;
+    height: 250px;
+    transition: height 0.6s ease;
+    transition: width 0.6s ease;
+}
+.div_dever.small {
+    height: 90px;
+    width: 70px;
+}
+.div_dever.big {
+    height: 490px;
+    width: 330px;
+}
+#hr_break {
+    border: 0;
+}
+.div_dever:hover .img_a {
+    width: 0px;
+}
+.img_a {
+    width: 180px;
+    height: 240px;
+    position: absolute;
+    transition: height 0.6s ease;
+    transition: width 0.6s ease;
+}
+.img_a.small {
+    height: 80px;
+    width: 60px;
+}
+.img_d {
+    width: 180px;
+    height: 240px;
+    transition: height 0.6s ease;
+    transition: width 0.6s ease;
+}
+.img_d.small {
+    height: 80px;
+    width: 60px;
+}
+.img_d.big {
+    height: 480px;
+    width: 320px;
+}
+#div_intro {
+    margin: 0px;
+    display: inline-block;
+    float: right;
+    width: 460px;
+    padding: 20px;
+    height: 620px;
+    /*background-color:red;*/
+    overflow: hidden;
+}
+#p_intro {
+    margin: 0px;
+    width: 420px;
+    height: 200px;
+}
+#div_introtext {
+    width: 420px;
+    height: 380px;
+    /* background-color:red; */
+    overflow: hidden;
+}
+#ul_intro {
+    width: 420px;
+    height: 380px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.li_intro {
+    margin: 0px;
+    padding: 0px;
+}
+.p_introname {
+    width: 420px;
+    height: 40px;
+    background-color: rgb(0, 191, 255);
+    margin: 0px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.ul_introtext {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.li_introtext {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.p_introtext {
+    width: 420px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px 10px;
+    background-color: rgb(230, 255, 255);
+    transition: height 0.6s ease-in;
+}
+.p_introtext.active {
+    height: 220px;
+}

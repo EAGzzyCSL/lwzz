@@ -1,0 +1,63 @@
+* {
+    -moz-box-sizing: boder-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#father_container {
+    width: 720px;
+    display: inline-block;
+    float: right;
+    background-image: url("design/telegram_background.png");
+}
+.sub_container {
+    overflow: hidden;
+    width: 720px;
+    padding: 12px;
+}
+.img_left {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    margin: 0px;
+}
+.content_container_left {
+    width: 640px;
+    display: inline-block;
+}
+.p_left {
+    float: left;
+    width: 500px;
+    margin: 0;
+    padding: 12px 10px 12px 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: -2px -2px 1px rgb(206, 214, 221) inset;
+}
+.p_left::before {
+    display: block;
+    content: "Android";
+    color: rgb(205, 64, 115);
+    height: 32px;
+}
+.img_right {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+}
+.content_container_right {
+    width: 640px;
+    display: inline-block;
+}
+.p_right {
+    float: right;
+    width: 500px;
+    margin: 0;
+    padding: 12px 10px 12px 10px;
+    background: rgb(239, 253, 222);
+    box-shadow: -2px -2px 1px rgb(182, 220, 192) inset;
+}
+.p_right::before {
+    display: block;
+    content: "iOS";
+    color: rgb(206, 103, 27);
+    height: 32px;
+}
