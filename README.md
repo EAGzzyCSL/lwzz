@@ -1,5 +1,6 @@
 # lwzz
 大二刚开学的小学期的静态网站项目。
+地址：http://eagzzycsl.github.io/lwzz
 
 # 说明
 * 这是当时大二的时候做的东西，现在看来很幼稚。
